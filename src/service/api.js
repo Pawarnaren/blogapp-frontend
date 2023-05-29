@@ -3,7 +3,7 @@ import { API_NOTIFICATION_MESSAGES } from "../constants/config";
 import { SERVICE_URLS } from "../constants/config";
 import { getAccessToken, getType } from "../utils/common-utils";
 
-const API_URL = 'https://blogapp-backend-production-6e87.up.railway.app';
+const API_URL = 'https://happy-pink-raincoat.cyclic.app';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
